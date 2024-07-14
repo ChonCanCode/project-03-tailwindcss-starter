@@ -6,17 +6,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class= "text-slate-600 font-Nunito">
     <div> <!--conten wrapper-->
         <div>
         <nav>
             <div>
-                <h1>
+                <h1 class="font-bold uppercase p-4 border-b border-gray-100">
                     <a href="/">Project Tailwindcss</a>
                 </h1>
             </div>
             <ul>
-                <li>
+                <li class="text-slate-700 font-bold ">
                     <a href="#">
                         <span>Home</span>
                     </a>
@@ -35,21 +35,20 @@
         </nav>
     </div><!-- end nav -->
 
-    <main>
-        <div>
-            <a href="#">Log in</a>
-            <a href="#">Sign up</a>
+    <main class="px-16 py-6">
+        <div class="flex justify-end">
+            <a class="text-primary" href="#">Log in</a>
+            <a class="text-primary ml-2" href="#">Sign up</a>
         </div>
-
         <header>
-            <h2>Recipes</h2>
-            <h3>For You</h3>
+            <h2 class="text-slate-800 text-6xl  font-semibold">Recipes</h2>
+            <h3 class="text-2xl font-semibold">For You</h3>
         </header>
 
         <div>
-            <h4>Latest Recipes</h4>
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
 
-            <div>
+            <div class="mt-8">
                 <!-- cards go here -->
                  <div>
                     <img src="img/project 01.jpg" alt="project01">
@@ -60,13 +59,13 @@
                  </div>
             </div>
 
-            <h4>Most popular</h4>
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Most popular</h4>
 
-            <div>
+            <div class="mt-8">
                 <!-- Cards go here -->
             </div>
-            <div>
-                <div>Load more</div>
+            <div class="flex justify-center">
+                <div class="bg-secondary-100 text-secondary-200">Load more</div>
             </div>
         </div>
     </main>

@@ -10,6 +10,7 @@ Key Concepts:
 - No Custom CSS: The idea is to avoid writing custom CSS. Instead, you compose your design using the provided utility classes, which can lead to more consistent and maintainable code.
 
 **2024.07.13**
+Installation steps
 1. Create `package.json` file: VS code > Terminal > Open new terminal > (insert) npm init -y
 2. Installing tailwindcss in the file: Terminal > (insert) npm install tailwindcss
     - In the context of a Tailwind CSS project, dependencies refer to the packages that your project needs in order to function correctly. These packages are listed in the package.json file under the dependencies section. When you install Tailwind CSS using npm, it is added to this section as a required package for your project.
@@ -20,3 +21,13 @@ Key Concepts:
 }
 5. terminal run > npm run build-css (it will create a folder within public folder)
 6. Create HTML basic structure in public index.html
+
+**2024.07.14**
+- Error occured `No utility classes were detected in your source files check content` turns out in `tailwind.config.js` `module.exports = {
+  content: ["./public/**/*.{html,js,css}"],}` due to the content has to address to the public(correct) folder location.
+- Learned changing size, color & text font. OMG I can similar control css with prebuild syntax via HTML class group!!!
+- Learned how to add border, margin & padding
+- Learned how tail wind config terminal enter `npx tailwindcss init --full` if `tailwind.config.js` already then delete the file and re-enter the module.export>contnet from above again.
+- Too add extra config, we can open a default config npx tailwincss (with out --full), and under extend put the content under same format as the one in full config.
+- Learned how to add custom font obtain font embed code from google font @import copy the <style> code within. Then past that code in src/style.css and use the name of the font from google as the name already assinged within the @import code.
+- Leanred how ot use flexbox, with flex- & justify- class. 

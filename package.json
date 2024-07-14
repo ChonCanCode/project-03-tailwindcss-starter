@@ -4,12 +4,12 @@
   "description": "Learning Tailwindcss from scratch",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/style.css -o public/style.css"
+    "build-css": "tailwindcss build src/style.css -o public/style.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.4.4"
   }
 }
