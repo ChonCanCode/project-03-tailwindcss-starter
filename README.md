@@ -31,3 +31,7 @@ Installation steps
 - Too add extra config, we can open a default config npx tailwincss (with out --full), and under extend put the content under same format as the one in full config.
 - Learned how to add custom font obtain font embed code from google font @import copy the <style> code within. Then past that code in src/style.css and use the name of the font from google as the name already assinged within the @import code.
 - Leanred how ot use flexbox, with flex- & justify- class. 
+
+**2024.07.15**
+- Learned `Responsive Classes` to different screen sizes. By using `sm:, md:, lg:, xl:"` to determine minimum screen size.
+- learned how to adjust photo size with `h-, sm:h `
