@@ -35,3 +35,16 @@ Installation steps
 **2024.07.15**
 - Learned `Responsive Classes` to different screen sizes. By using `sm:, md:, lg:, xl:"` to determine minimum screen size.
 - learned how to adjust photo size with `h-, sm:h `
+- Learned how to add badge on top of the photos
+
+**2024.07.16**
+- Leanred `@apply Directive`
+- Learned css grid
+
+**2024.07.17**
+- Learned `Button`
+- with class type `tracking-` I can adjust the space better letters. 
+- Learned adding shadow with hoover effect, adding icon and align next to the text
+- Leanred responsive nav, adding border bar as a navgation of which page user is on.
+- First time adding JS as a function for drop down menu into the webpage!
+- Learned `transform` and `transition`
